@@ -1,5 +1,7 @@
 # Weather Prediction Web Application
 
+Access: https://srivarshini277.github.io/WeatherPredictionUsingWebAPI/
+
 A lightweight, user-friendly web application that allows users to search for real-time weather information for any city around the world using the OpenWeather API.
 
 ## Features

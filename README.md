@@ -2,10 +2,6 @@
 
 A lightweight, user-friendly web application that allows users to search for real-time weather information for any city around the world using the OpenWeather API.
 
-![Weather Prediction Home](images/weather1.png)
-
-![Weather Prediction Result](images/weather2.png)
-
 ## Features
 
 - **Real-time Weather Data**: Get current weather conditions for any city worldwide
@@ -110,3 +106,9 @@ The application includes error handling for:
 ## Acknowledgments
 
 - Weather data provided by [OpenWeather API](https://openweathermap.org/)
+
+## Application Preview
+
+![Weather Prediction Home](images/weather1.png)
+
+![Weather Prediction Result](images/weather2.png)

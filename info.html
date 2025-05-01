@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Details</title>
+    <link rel="stylesheet" type="text/css" href="infoStyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/2.30.0/date-fns.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns-tz/2.0.0/date-fns-tz.min.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="first card city"></div>
+        <div class="card coordinates">
+            <div class="lat"></div>
+            <div class="lon"></div>
+        </div>
+        <div class="second card2">
+            <div class="grid-container2">
+                <div class="card weather-info">
+                    <img id="weatherIcon" src="" alt="Weather icon" height="60px" width="60px"/>
+                    <p><span id="weatherData"></span></p>
+                </div>
+                <div class="card sun">
+                    <div class="sunrise"></div>
+                    <div class="sunset"></div>
+                </div>
+                <div class="third card desc"></div>
+            </div>
+        </div>
+        <div class="card weather-info">
+            <img id="tempIcon" src="./images/temp.png" alt="Temperature icon" height="60px" width="60px"/>
+            <p><span id="temp"></span></p>
+        </div>
+        <div class="card weather-info">
+            <img id="tempMaxIcon" src="./images/tempUp.png" alt="Temperature Up icon" height="60px" width="60px"/>
+            <p><span id="maxTemp"></span></p>
+        </div>
+        <div class="card timezone"></div>
+        <div class="card weather-info">
+            <img id="humidityIcon" src="./images/humidity.png" alt="Humidity icon" height="50px" width="50px"/>
+            <p><span id="humidity"></span></p>
+        </div>
+        <div class="card weather-info">
+            <img id="tempMinIcon" src="./images/tempDown.png" alt="Temperature Down icon" height="60px" width="60px"/>
+            <p><span id="minTemp"></span></p>
+        </div>
+        <div class="card weather-info">
+            <img id="pressureIcon" src="./images/pressure.gif" alt="Pressure icon" height="50px" width="50px"/>
+            <p><span id="pressure"></span></p>
+        </div>
+        <div class="card weather-info">
+            <img id="windIcon" src="./images/wind.gif" alt="Wind icon" height="50px" width="50px"/>
+            <p><span id="windSpeed"></span></p>
+        </div>
+        <div class="card degree"></div>
+        <div class="card seaLevel"></div>
+        <div class="card feelsLike"></div>
+    </div>
+
+    <div class="footer">
+        <button id="goBack" onclick="goBackToHome()">Go Back</button>
+    </div>
+
+    <script type="text/javascript" src="./info.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+html{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(64,114,196,0.7681197478991597) 17%, rgba(0,255,255,1) 100%);
+}
+body{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+} 
+.container{
+    margin-bottom: 20px;
+    width:100%;
+    text-align: center;
+}
+#searchBox{
+    border: 0;
+    font-size: 15px;
+    padding: 6px;
+    background: white;
+    align-items: center;
+    text-align: center;
+}
+#searchButton{
+    font-size: 15px;
+    padding: 6px;
+    border: none;
+    background-color: #007bff; 
+    color: white;
+}
+.message{
+    text-align: center;
+}
+.containerTwo{
+   position:fixed;
+   left: 0;
+   bottom: 30%;
+   width: 100%;
+   text-align: center;
+}
+.containerTwo h2 {
+    font-size: 50px;
+    background-image: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.containerTwo h3 {
+    font-size: 25px;
+    color:#0C1844;
+}
+
+h1{
+    font-size:3rem;
+}
